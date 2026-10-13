@@ -1,0 +1,1 @@
+Next: Step 2 — implement src/warehouse.py (parametric layout + aisle-based distance function).
