@@ -1,1 +1,1 @@
-Next: Step 2 — implement src/warehouse.py (parametric layout + aisle-based distance function).
+Next: Step 3 — implement src/solvers/baseline.py (terminal order by product ID + random order) and get the reference route length.
