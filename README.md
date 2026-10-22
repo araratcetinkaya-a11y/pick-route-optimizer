@@ -4,11 +4,16 @@ Benchmarking reinforcement learning against classic algorithms for warehouse ord
 
 ## Why this project
 
-I used to work as a picker in a quick-commerce dark store. Orders showed up on the handheld terminal in an order that had nothing to do with where the products were: walk to the far right of the warehouse, then the far left, then right again. Back then I trained a small reinforcement learning model in MATLAB that took the shuffled item list and returned a faster picking sequence.
+From December 2021 to March 2022 I worked as a picker at Getir, a quick-commerce grocery delivery company. Quick-commerce promises delivery in minutes, so every second spent walking between shelves counts.
 
-This repository rebuilds that idea in Python. It also asks a question I skipped the first time: **is RL actually the right tool here, compared with classic routing algorithms?**
+Orders appeared on the handheld terminal as a list of items, but the list didn't take the products' locations into account. A typical order could send me to the far right of the store, then the far left, then back to the right.
 
-> Everything here is synthetic and parametric. No real warehouse layout or data from my former employer is used.
+At the time I trained a small reinforcement learning model in MATLAB that took the shuffled item list and returned a faster picking sequence.
+
+This repository rebuilds that idea in Python and asks the question I skipped the first time: **is RL actually the right tool here, compared with classic routing algorithms?**
+
+> Everything here is synthetic and parametric. No real store layout, data or internal information from Getir is used, and this project is not affiliated with Getir.
+
 
 ## The problem
 
