@@ -1,1 +1,1 @@
-Next: Step 3 — implement src/solvers/baseline.py (terminal order by product ID + random order) and get the reference route length.
+Next: Step 4 — implement nearest neighbour + 2-opt (heuristics.py) and Held-Karp (exact.py) using solve(start, items, dist).
