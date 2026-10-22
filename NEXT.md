@@ -1,1 +1,1 @@
-Next: Step 4 — implement nearest neighbour + 2-opt (heuristics.py) and Held-Karp (exact.py) using solve(start, items, dist).
+Next: Step 5 - implement tabular Q-learning (rl_qlearning.py) on 5-8 item orders + learning curve plot.
